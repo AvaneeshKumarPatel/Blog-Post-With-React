@@ -58,7 +58,7 @@ export default function PostForm({ post }) {
                 .replace(/\s/g, "-");
 
         return "";
-    }, []);
+    }, []c);
 
     React.useEffect(() => {
         const subscription = watch((value, { name }) => {
@@ -120,3 +120,5 @@ export default function PostForm({ post }) {
         </form>
     );
 }
+
+
